@@ -40,7 +40,7 @@ File containing the main bot handlers and FSM logic:
 Profile setup, water logging, food logging, workouts logging, progress check, chart generation, recommendations.  
 Uses the local database via functions from `db.py`.  
 Integrated with external APIs:  
-- Weather (OpenWeatherMap) to account for hot weather in calculations and advice.  
+-- Weather (OpenWeatherMap) to account for hot weather in calculations and advice.  
 - Calorie information (USDA), including automatic translation of product names from Russian to English (via googletrans) for accurate search.  
 
 Main commands:  
