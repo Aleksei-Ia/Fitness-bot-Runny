@@ -44,7 +44,8 @@ Integrated with external APIs:
 - Calorie information (USDA), including automatic translation of product names from Russian to English (via googletrans) for accurate search.  
 
 Main commands:  
-  /help, /start, /log_water, /log_food, /log_workout, /check_progress, /show_charts, /recommend.  
+- /help, /start, /log_water, /log_food, /log_workout, /check_progress, /show_charts, /recommend.  
+
 User interaction via inline buttons.  
 FSM states (ProfileStates, FoodLogStates, WaterLogStates, WorkoutStates) organize step-by-step data input.  
 Recommendations are based on calorie balance, time of day, workout intensity, and local temperature.  
