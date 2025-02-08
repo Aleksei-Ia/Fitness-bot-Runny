@@ -3,7 +3,7 @@ This Telegram bot allows you to set a goal for weight change and track the consu
 
 ##Main bot commands:
 
-/set_profile — Set or update profile data. It asks for weight, height, age, gender, activity level, and city. 
+/set_profile — Set or update profile data. It asks for weight, height, age, gender, activity level, and city.\n
 /log_water — Log water intake. Allows you to enter the amount of water (in ml) consumed. 
 /log_food — Log food. Asks for the product and its weight. Displays the consumed calories. Product input is available in both English and Russian. If the product data is not available, it offers to manually enter the calorie count for the product. 
 /log_workout — Log workout. You need to select the type of workout, intensity, and duration. It shows the calories burned and water consumption. 
