@@ -15,12 +15,19 @@ This Telegram bot allows you to set a goal for weight change and track the consu
 ##Structure:
 
 ├── Dockerfile
+
 ├── config.py
+
 ├── db.py
+
 ├── handlers.py
+
 ├── main.py
+
 ├── nutrition_api.py
+
 ├── requirements.txt
+
 └── weather_api.py
 
 Dockerfile
