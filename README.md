@@ -69,7 +69,7 @@ List of Python dependencies.
 ### weather_api.py  
 File for retrieving information about the current temperature and time in the given city via the OpenWeatherMap API: returns the temperature in °C and local time considering the timezone.
 
-## Running Locally
+## Running Locally:
 
 1. Open a terminal and navigate to the root folder of the project.
 
