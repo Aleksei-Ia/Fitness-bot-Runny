@@ -87,7 +87,7 @@ docker run -d --name my_running_bot mybot
 ### Or, to save user data on the local machine:
 
 ```bash
-docker run -d -v "/path/to/local/db/bot_database.db:/app/bot_database.db" --name my_running_bot mybot:latest
+docker run -d -v "/path to local db/bot_database.db:/app/bot_database.db" --name my_running_bot mybot:latest
 ```
 
 ### To view logs:
