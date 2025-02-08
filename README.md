@@ -3,7 +3,7 @@ This Telegram bot allows you to set a goal for weight change and track the consu
 
 ##Main bot commands:
 
-/set_profile — Set or update profile data. It asks for weight, height, age, gender, activity level, and city.\n
+/set_profile — Set or update profile data. It asks for weight, height, age, gender, activity level, and city.
 /log_water — Log water intake. Allows you to enter the amount of water (in ml) consumed. 
 /log_food — Log food. Asks for the product and its weight. Displays the consumed calories. Product input is available in both English and Russian. If the product data is not available, it offers to manually enter the calorie count for the product. 
 /log_workout — Log workout. You need to select the type of workout, intensity, and duration. It shows the calories burned and water consumption. 
@@ -87,3 +87,29 @@ docker run -d -v "/path/to/local/db/bot_database.db:/app/bot_database.db" --name
 
 To view logs:
 docker logs -f my_running_bot
+
+# Telegram Bot for Weight Management and Calorie Tracking
+
+This Telegram bot allows you to set a goal for weight change and track the consumption and expenditure of calories and water.
+
+## Main Bot Commands:
+
+- **/set_profile** — Set or update profile data. It asks for weight, height, age, gender, activity level, and city.
+- **/log_water** — Log water intake. Allows you to enter the amount of water (in ml) consumed.
+- **/log_food** — Log food. Asks for the product and its weight. Displays the consumed calories. Product input is available in both English and Russian. If the product data is not available, it offers to manually enter the calorie count for the product.
+- **/log_workout** — Log workout. You need to select the type of workout, intensity, and duration. It shows the calories burned and water consumption.
+- **/check_progress** — Check the progress of water and calorie consumption, calories burned, and how much remains to reach the goal.
+- **/show_charts** — Graphs of water and calorie consumption, as well as calories burned during workouts over the past 7 days.
+- **/recommend** — Nutrition and workout recommendations based on the current calorie balance, time of day, and temperature in the selected city.
+- **/help** — List of available commands.
+
+## Project Structure:
+.
+├── Dockerfile
+├── config.py
+├── db.py
+├── handlers.py
+├── main.py
+├── nutrition_api.py
+├── requirements.txt
+└── weather_api.py
