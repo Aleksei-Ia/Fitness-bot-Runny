@@ -1,5 +1,3 @@
-# Fitness-bot-Runny
-
 # Telegram Bot for Weight Management and Calorie Tracking
 
 This Telegram bot allows you to set a goal for weight change and track the consumption and expenditure of calories and water.
